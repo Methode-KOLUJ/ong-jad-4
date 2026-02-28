@@ -34,7 +34,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 flex items-center gap-2">
             <Image src="/images/Logo.png" alt="Logo" width={50} height={50} />
-            <span className="font-extrabold text-2xl md:text-3xl tracking-tight text-gray-900 dark:text-white">ONG JAD</span>
+            <span className="hidden md:block font-extrabold text-2xl md:text-3xl tracking-tight text-gray-900 dark:text-white">ONG JAD</span>
           </Link>
 
           {/* Desktop Nav */}
