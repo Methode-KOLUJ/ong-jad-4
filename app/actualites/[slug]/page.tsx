@@ -7,11 +7,21 @@ import Post from '@/lib/models/Post';
 import ArticleHero from '@/components/ArticleHero';
 import ShareButtons from '@/components/ShareButtons';
 
+export const revalidate = 3600; // Cache for 1 hour
+
 async function getPost(slug: string) {
     await dbConnect();
     const post = await Post.findOne({ slug }).lean();
     if (!post) return null;
     return JSON.parse(JSON.stringify(post));
+}
+
+export async function generateStaticParams() {
+    await dbConnect();
+    const posts = await Post.find({}).select('slug').lean();
+    return posts.map((post: any) => ({
+        slug: post.slug,
+    }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
