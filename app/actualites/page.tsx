@@ -4,7 +4,7 @@ import dbConnect from '@/lib/mongodb';
 import Post from '@/lib/models/Post';
 
 export const metadata = constructMetadata({
-  title: "Actualités & Blog - ONG JAD",
+  title: "Actualités - ONG JAD",
   description: "Suivez toute l'actualité de l'Organisation Non Gouvernementale Jeunes Entrepreneurs en Action pour le Développement : articles, événements, et témoignages de nos actions sur le terrain.",
 });
 
