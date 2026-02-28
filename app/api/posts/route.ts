@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import dbConnect from '@/lib/mongodb';
 import Post from '@/lib/models/Post';
 
@@ -33,6 +34,11 @@ export async function POST(req: Request) {
         body.slug = uniqueSlug;
 
         const newPost = await Post.create(body);
+
+        // Purge cache for news catalog
+        revalidatePath('/actualites');
+        revalidatePath('/'); // in case we have news on home page
+
         return NextResponse.json({ success: true, post: newPost });
     } catch (err) {
         console.error(err);
@@ -50,7 +56,14 @@ export async function DELETE(req: Request) {
         }
 
         await dbConnect();
-        await Post.findByIdAndDelete(id);
+        const postToDelete = await Post.findById(id);
+        if (postToDelete) {
+            await Post.findByIdAndDelete(id);
+            // Purge cache
+            revalidatePath('/actualites');
+            revalidatePath(`/actualites/${postToDelete.slug}`);
+            revalidatePath('/');
+        }
 
         return NextResponse.json({ success: true });
     } catch (err) {
@@ -96,6 +109,11 @@ export async function PUT(req: Request) {
         if (!updatedPost) {
             return NextResponse.json({ error: 'Post not found' }, { status: 404 });
         }
+
+        // Purge cache
+        revalidatePath('/actualites');
+        revalidatePath(`/actualites/${updatedPost.slug}`);
+        revalidatePath('/');
 
         return NextResponse.json({ success: true, post: updatedPost });
     } catch (err) {
