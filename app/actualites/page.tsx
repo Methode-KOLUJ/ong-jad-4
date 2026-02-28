@@ -8,6 +8,8 @@ export const metadata = constructMetadata({
   description: "Suivez toute l'actualité de l'Organisation Non Gouvernementale Jeunes Entrepreneurs en Action pour le Développement : articles, événements, et témoignages de nos actions sur le terrain.",
 });
 
+export const revalidate = 3600; // Cache for 1 hour
+
 async function getPosts(query?: string) {
   await dbConnect();
 
