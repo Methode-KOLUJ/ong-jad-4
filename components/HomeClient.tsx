@@ -153,7 +153,7 @@ export default function HomeClient() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: false }}
                     transition={{ delay: 0.3, duration: 0.6 }}
-                    className="w-1/2 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md rounded-xl p-4 flex items-center gap-4"
+                    className="w-full md:w-1/2 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md rounded-xl p-4 flex items-center gap-4"
                   >
                     <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
                       <Heart className="text-white" size={24} fill="currentColor" />
