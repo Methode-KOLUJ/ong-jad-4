@@ -16,64 +16,82 @@ export interface Partner {
 const partners: Partner[] = [
     {
         name: 'Aqua Pischon',
-        logo: '/partners/Aqua.jpeg',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733896/Aqua_sf4ryy.jpg',
         description: "",
         website: '#'
     },
     {
         name: 'Atlantic traiteur',
-        logo: '/partners/Atlantic.jpeg',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733896/Atlantic_p6jzpb.jpg',
         description: "Atlantic Traiteur est un service traiteur haut de gamme basé à Lubumbashi, spécialisé dans la création d’événements mémorables grâce à une cuisine raffinée et un accompagnement complet. Que ce soit pour des mariages, des événements professionnels ou des fêtes privées, l’équipe propose des menus personnalisés, des buffets élégants et une organisation sans stress, le tout avec des ingrédients frais et locaux, un service professionnel et une grande flexibilité pour s’adapter aux besoins et au budget de chaque client.",
         website: '#'
     },
     {
         name: 'Bora SARL',
-        logo: '/partners/Bora.jpeg',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733896/Bora_k86wjz.jpg',
         description: '',
         website: '#'
     },
     {
         name: 'Jésus-Christ au Centre',
-        logo: '/partners/Christ.jpeg',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733896/Christ_kql85b.jpg',
         description: "Ce cabinet de consultants bibliques intervient dans le monde entier, particulièrement en RDC, pour approfondir la compréhension des Écritures à travers l’enseignement de l’herméneutique. Sa mission est d’offrir une expérience textuelle approfondie au service de l’Évangile et du perfectionnement des croyants, en faisant de chacun un ami de la Bible et de la personne de Christ. Il organise des conférences, des ateliers, des chambres de réforme, des consultations et des formations, guidé par son credo : faire de la Bible une amie pour mieux l’interpréter et placer Jésus-Christ au centre pour devenir une extension de Sa personne.",
         website: '#'
     },
     {
         name: 'Travel Booking',
-        logo: '/partners/Travel.jpeg',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733895/Travel_dvcpqb.jpg',
         description: "Nous sommes une agence de voyage internationale qui accompagne ses clients dans l’obtention de visas partout dans le monde. Spécialisée dans la vente de billets d’avion nationaux et internationaux, ainsi que dans le fret et la vente de véhicules, elle assure aussi le suivi complet des dossiers, incluant le remplissage des formulaires et les réservations confirmées de vols et d’hôtels.",
         website: '#'
     },
     {
         name: 'Focus Empire',
-        logo: '/partners/Empire.jpeg',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733894/Empire_idqo0x.jpg',
         description: "Focus Empire se distingue par la création de clips vidéo, de spots publicitaires et la promotion de diverses formes d’art, tout en jouant un rôle clé dans l’industrie musicale grâce à la production, la promotion et le management d’artistes. L’agence offre également des services complets de publicité et marketing pour accroître la visibilité des produits et services, et met son expertise événementielle au service de l’organisation d’événements sur mesure. L’excellence y est une véritable promesse.",
         website: '#'
     },
     {
         name: 'Mission Evangélique de la Gloire',
-        logo: '/partners/MEG.jpeg',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733894/MEG_fqxj3v.jpg',
         description: "La Communauté Mission Évangélique la Gloire de la Deuxième Maison (MEG), située dans la Commune Annexe à Golf Plateau 4, œuvre pour le salut des âmes, la transformation spirituelle et sociale, le développement communautaire et le changement de mentalité. Guidée par les valeurs bibliques, elle accompagne chacun vers l’accomplissement de sa destinée en Christ et invite les fidèles à la retrouver à l’avenue Hon Mpanga n°70, près du Marché Kyungu.",
         website: '#'
     },
     {
         name: 'MLS SARL Construction',
-        logo: '/partners/MLS.jpeg',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733895/MLS_mqzoyd.jpg',
         description: "MLS SARL Construction est une entreprise active à Lubumbashi, Kolwezi, Kinshasa et Likasi, spécialisée dans la construction résidentielle et commerciale. Grâce à une équipe d’ingénieurs qualifiés, elle prend en charge chaque projet du début à la fin pour réaliser fidèlement la vision de ses clients, qu’il s’agisse d’une maison ou d’un bâtiment professionnel. Contact : +243 975 361 498 - +243 853 384 827 – maisonluabeyasolution@gmail.com",
         website: '#'
     },
     {
         name: 'Muzuri Realty',
-        logo: '/partners/Muzuri.jpeg',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733896/Muzuri_p0ritf.jpg',
         description: "Notre agence immobilière, implantée à Kinshasa et Lubumbashi, offre des services complets allant de la location de suites, appartements, bureaux et maisons à la vente de terrains, parcelles et concessions, ainsi qu’à la gestion professionnelle de biens. Dynamique et innovante, elle accompagne ses clients avec des solutions sur mesure pour soutenir leurs projets et favoriser leur épanouissement socio-économique, avec une vision tournée vers l’ensemble du continent africain.",
         website: '#'
     },
     {
         name: 'HDesign Creative',
-        logo: '/partners/Creative.jpeg',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733893/Creative_jws0f1.jpg',
         description: "Notre agence de création visuelle, active dans toute la RDC, accompagne les entreprises et professionnels dans la conception de logos, chartes graphiques et supports de communication (affiches, flyers, cartes de visite) afin de renforcer leur image de marque. L’équipe crée des visuels simples, percutants et adaptés aux besoins de chaque client pour favoriser une communication efficace et distinctive.",
         website: '#'
     },
+    {
+        name: 'The Horizon English Center',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733596/HEC_njgfqb.jpg',
+        description: "",
+        website: '#'
+    },
+    {
+        name: 'Na Nguvu',
+        logo: "https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733596/Nguvu_uy0nte.jpg",
+        description: '',
+        website: "#"
+    },
+    {
+        name: 'SP corp',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733596/SP_corp_lc5xgc.jpg',
+        description: "",
+        website: ""
+    }
 ];
 
 export default function Partenaire() {
