@@ -57,8 +57,8 @@ const partners: Partner[] = [
         website: '#'
     },
     {
-        name: 'MLS SARL Construction',
-        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733895/MLS_mqzoyd.jpg',
+        name: 'Maison Leader Construction',
+        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772734973/MLS_atbrxw.jpg',
         description: "MLS SARL Construction est une entreprise active à Lubumbashi, Kolwezi, Kinshasa et Likasi, spécialisée dans la construction résidentielle et commerciale. Grâce à une équipe d’ingénieurs qualifiés, elle prend en charge chaque projet du début à la fin pour réaliser fidèlement la vision de ses clients, qu’il s’agisse d’une maison ou d’un bâtiment professionnel. Contact : +243 975 361 498 - +243 853 384 827 – maisonluabeyasolution@gmail.com",
         website: '#'
     },
@@ -223,3 +223,4 @@ export default function Partenaire() {
         </>
     );
 }
+
