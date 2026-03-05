@@ -54,7 +54,7 @@ const partners: Partner[] = [
         name: 'Mission Evangélique de la Gloire',
         logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733894/MEG_fqxj3v.jpg',
         description: "La Communauté Mission Évangélique la Gloire de la Deuxième Maison (MEG), située dans la Commune Annexe à Golf Plateau 4, œuvre pour le salut des âmes, la transformation spirituelle et sociale, le développement communautaire et le changement de mentalité. Guidée par les valeurs bibliques, elle accompagne chacun vers l’accomplissement de sa destinée en Christ et invite les fidèles à la retrouver à l’avenue Hon Mpanga n°70, près du Marché Kyungu.",
-        website: '#'
+        website: 'https://ongjad.com/actualites/pr-sentation-de-la-mission-vang-lique-de-la-gloire-meg'
     },
     {
         name: 'Maison Leader Construction',
@@ -223,3 +223,4 @@ export default function Partenaire() {
         </>
     );
 }
+
