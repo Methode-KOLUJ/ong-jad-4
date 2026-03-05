@@ -15,18 +15,6 @@ export interface Partner {
 
 const partners: Partner[] = [
     {
-        name: 'Aqua Pischon',
-        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733896/Aqua_sf4ryy.jpg',
-        description: "",
-        website: '#'
-    },
-    {
-        name: 'Atlantic traiteur',
-        logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733896/Atlantic_p6jzpb.jpg',
-        description: "Atlantic Traiteur est un service traiteur haut de gamme basé à Lubumbashi, spécialisé dans la création d’événements mémorables grâce à une cuisine raffinée et un accompagnement complet. Que ce soit pour des mariages, des événements professionnels ou des fêtes privées, l’équipe propose des menus personnalisés, des buffets élégants et une organisation sans stress, le tout avec des ingrédients frais et locaux, un service professionnel et une grande flexibilité pour s’adapter aux besoins et au budget de chaque client.",
-        website: '#'
-    },
-    {
         name: 'Bora SARL',
         logo: 'https://res.cloudinary.com/dgv2vmgio/image/upload/v1772733896/Bora_k86wjz.jpg',
         description: '',
@@ -223,4 +211,5 @@ export default function Partenaire() {
         </>
     );
 }
+
 
